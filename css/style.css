@@ -1,0 +1,50 @@
+body {
+  background: ivory;
+  padding-top: 5em;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.nav-link {
+  color: red;
+}
+.navbar-custom {
+    background-color: #ff5500;
+}
+
+.typewriter{
+  color: royalblue;
+  font-family: Raleway;
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+.typewriter2{
+  color: royalblue;
+  font-family: Raleway;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type2 4s steps(120, end);
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
