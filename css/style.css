@@ -1,18 +1,33 @@
 body {
   background: ivory;
-  padding-top: 5em;
   justify-content: center;
 }
-
-.navbar {
-  background-color: blue;
-}
-
-.nav-link {
+.collapse {
   color: red;
 }
-.navbar-custom {
-    background-color: #ff5500;
+
+.navmenu {
+  align-items: center;
+  background-color: white;
+  color: dodgerblue;
+  text-align: center;
+  border-bottom: 2px solid royalblue;
+}
+
+.navitem {
+  font-family: Raleway;
+  font-size: 25px;
+  align-items: center;
+  display: inline-flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  text-decoration: none;
+  margin: 25px 100px 25px 100px;
+}
+
+li {
+  display: inline-flex;
+  align-items: center;
 }
 
 .typewriter{
@@ -24,6 +39,7 @@ body {
   overflow: hidden;
   width: 30em;
   animation: type 4s steps(60, end);
+  animation-iteration-count: infinite;
 }
 .typewriter2{
   color: royalblue;
@@ -33,6 +49,8 @@ body {
   overflow: hidden;
   width: 30em;
   animation: type2 4s steps(120, end);
+  animation-iteration-count: infinite;
+
 }
 
 @keyframes type{
