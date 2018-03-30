@@ -73,7 +73,29 @@ h5 {
   border-top-right-radius: 10px;
 }
 
-@keyframes type{
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+.carousel-caption {
+  margin-bottom: -200px;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.img-fluid {
+  height: 50px;
+}
+.carousel-control-next-icon {
+  background: red;
+}
+
+.carousel-control-prev-icon {
+  background: red;
+}
+
+  @keyframes type{
   from { width: 0; }
 }
 
