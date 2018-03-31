@@ -15,6 +15,9 @@ body {
   width: 100%;
   z-index: 1;
 }
+a:active {
+  color: red;
+}
 
 .navitem {
   font-family: Raleway;
@@ -59,7 +62,7 @@ span{
 }
 
 .jumbotron {
-  background-image: url("../assets/imagery/bluebackground.jpg");
+  background-image: url("../assets/devicons/imagery/bluebackground.jpg");
   text-align: center;
   height: 90vh;
   width: 100%;
@@ -90,7 +93,7 @@ h5 {
 }
 
 .img-fluid {
-  height: 50px;
+  height: 500px;
 }
 .carousel-control-next-icon {
 }
@@ -99,7 +102,8 @@ h5 {
 }
 
 .techicon {
-  height: 90%;
+  padding: 15px;
+  height: 100px;
 }
 
   @keyframes type{
