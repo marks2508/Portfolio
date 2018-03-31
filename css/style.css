@@ -1,6 +1,6 @@
 body {
   background: white;
-  justify-content: center;
+  padding-top: 90px;
 }
 
 
@@ -10,6 +10,10 @@ body {
   color: dodgerblue;
   text-align: center;
   border-bottom: 2px solid royalblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .navitem {
@@ -63,6 +67,7 @@ span{
 
 section {
   min-height: 100vh;
+  margin-top: 100px;
 }
 
 h5 {
@@ -88,11 +93,13 @@ h5 {
   height: 50px;
 }
 .carousel-control-next-icon {
-  background: red;
 }
 
 .carousel-control-prev-icon {
-  background: red;
+}
+
+.techicon {
+  height: 90%;
 }
 
   @keyframes type{
