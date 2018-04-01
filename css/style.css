@@ -47,16 +47,17 @@ span{
 .typewriter{
   color: white;
   text-align: center;
+  justify-content: center;
   font-family: Raleway;
   font-size: 90px;
-  margin: 100px 0 0 10px;
+  margin: 100px 0 0 200px;
   white-space: nowrap;
   overflow: hidden;
   width: 50%;
   animation: type 4s ;
 }
 
-.typewriter2{
+.typewrite{
   color: white;
   font-family: Raleway;
   font-size: 60px;
@@ -126,7 +127,7 @@ h5 {
 }
 .view .mask, .view .content {
     width: 914px;
-    height: 514px;
+    height: 614px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -141,8 +142,8 @@ h5 {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
-    padding: 10px;
+    font-size: 27px;
+    padding: 20px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
