@@ -90,37 +90,26 @@ h5 {
 .carousel-indicators {
   margin-bottom: -50px;
 }
-.carousel-caption {
-  margin-bottom: -200px;
-}
 
 .carousel-inner {
   overflow: visible;
 }
-
+.slideshow {
+  margin-bottom: 100px;
+}
 .img-fluid {
   height: 500px;
 }
 
 .profile-photo {
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
-.techicon {
-  padding: 15px;
-  height: 100px;
+.contact {
+  text-align: center;
 }
-.
-  @keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: 50px;
+  justify-content: center;
 }
