@@ -52,15 +52,11 @@ span{
 
 .typewriter{
   color: dodgerblue;
-  text-align: center;
-  justify-content: center;
   font-family: Raleway;
   font-size: 90px;
-  margin: 100px 0 0 200px;
-  white-space: nowrap;
+  margin-top: 100px;
   overflow: hidden;
-  width: 50%;
-  animation: type 4s ;
+
 }
 
 .typewrite{
@@ -80,6 +76,7 @@ span{
     linear-gradient(rgba(165, 210, 255, .3) 50%, transparent 50%);
   background-size: 40px 40px;
   text-align: center;
+  justify-content: center;
   height: 90vh;
   width: 100%;
 }
@@ -113,6 +110,7 @@ h5 {
 .slideshow {
   margin-bottom: 100px;
 }
+
 .img-fluid {
   height: 500px;
 }

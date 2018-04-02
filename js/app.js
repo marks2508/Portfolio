@@ -22,7 +22,7 @@ $(() => {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 200 - Math.random() * 200;
 
     if (this.isDeleting) {
       delta /= 2;
@@ -34,7 +34,7 @@ $(() => {
     } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       this.loopNum++;
-      delta = 500;
+      delta = 10;
     }
 
     setTimeout(function() {
@@ -58,22 +58,6 @@ $(() => {
     document.body.appendChild(css);
   };
 
-  $('#nav ul li a[href^=#]').on('click', function(e) {
-
-    // prevent default anchor click behavior
-    e.preventDefault();
-
-    // animate
-    $('html, body').animate({
-      scrollTop: $(this.hash).offset().top
-    }, 300, function(){
-
-      // when done, add hash to url
-      // (default click behaviour)
-      window.location.hash = this.hash;
-    });
-
-  });
-
+  
 
 });
