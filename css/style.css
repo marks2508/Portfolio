@@ -34,6 +34,12 @@ a:active {
   font-size: 30px;
 }
 
+section {
+  padding-top: 20vh;
+  min-height: 100vh;
+}
+
+
 
 li {
   display: inline-flex;
@@ -45,7 +51,7 @@ span{
 }
 
 .typewriter{
-  color: white;
+  color: dodgerblue;
   text-align: center;
   justify-content: center;
   font-family: Raleway;
@@ -58,7 +64,7 @@ span{
 }
 
 .typewrite{
-  color: white;
+  color: dodgerblue;
   font-family: Raleway;
   font-size: 60px;
   white-space: nowrap;
@@ -68,10 +74,20 @@ span{
 }
 
 .jumbotron {
-  background-image: url("../assets/devicons/imagery/bluebackground.jpg");
+  background-color: rgba(165, 210, 255, .4);
+  background-image:
+    linear-gradient(90deg, rgba(165, 210, 255, .3) 50%, transparent 50%),
+    linear-gradient(rgba(165, 210, 255, .3) 50%, transparent 50%);
+  background-size: 40px 40px;
   text-align: center;
   height: 90vh;
   width: 100%;
+}
+
+.techicon {
+  display: inline-block;
+  height: 100px;
+  padding: 10px;
 }
 
 section {
@@ -108,8 +124,11 @@ h5 {
 .contact {
   text-align: center;
 }
-.svg-inline--fa {
-  display: inline-block;
-  font-size: 50px;
-  justify-content: center;
+.svg-inline--fa.fa-w-14 {
+  text-align: center;
+  font-size: 40px;
+}
+.btn {
+  margin: 50px;
+
 }
