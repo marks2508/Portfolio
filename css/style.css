@@ -3,7 +3,6 @@ body {
   padding-top: 100px;
 }
 
-
 .navmenu {
   align-items: center;
   background-color: white;
@@ -15,6 +14,7 @@ body {
   width: 100%;
   z-index: 1;
 }
+
 a:active {
   color: red;
 }
@@ -29,6 +29,7 @@ a:active {
   text-decoration: none;
   margin: 25px 100px 25px 100px;
 }
+
 .skills {
   text-align: center;
   font-size: 30px;
@@ -38,8 +39,6 @@ section {
   padding-top: 20vh;
   min-height: 100vh;
 }
-
-
 
 li {
   display: inline-flex;
@@ -70,7 +69,7 @@ span{
 }
 
 .jumbotron {
-  background-color: LIGHTSKYBLUE;
+  background: lightcyan;
   text-align: center;
   justify-content: center;
   height: 90vh;
@@ -127,4 +126,95 @@ h5 {
 }
 #portfolio {
   background-color: LIGHTSKYBLUE;
+}
+
+.view {
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 914px;
+    height: 514px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 22px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: lightblue;
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+.view-first:hover img {
+	transform: scale(1.1);
+}
+.view-first:hover .mask {
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
 }
